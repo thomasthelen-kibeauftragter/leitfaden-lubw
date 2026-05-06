@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zirkuläres Bauen | Demo-Navigator</title>
+    <meta name="description" content="Der interaktive Demo-Navigator für zirkuläres Bauen. Transformieren Sie komplexe Leitfäden in klare, rollenspezifische Handlungsfelder.">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo-section">
+                <div class="lubw-logo">
+                    <span class="logo-text">LUBW</span>
+                </div>
+                <div class="divider"></div>
+                <h1 class="site-title">Innovationszentrum <br><span>Zirkuläres Bauen</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#landing" class="active">Start</a></li>
+                    <li><a href="#knowledge">Wissen</a></li>
+                    <li><a href="#toolbox">Toolbox</a></li>
+                    <li><a href="#assistant">Assistent</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="app">
+        <!-- Content will be injected here -->
+        <section id="landing" class="page-section active">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <span class="badge">Demo-Navigator</span>
+                        <h2>Zirkuläres Bauen <br>einfach navigieren.</h2>
+                        <p>Entdecken Sie den interaktiven Demo-Navigator. Wir transformieren komplexe Leitfäden in klare, rollenspezifische Checklisten für Ihren Projekterfolg.</p>
+                        <div class="hero-actions">
+                            <a href="#roles" class="btn btn-primary">Navigator starten</a>
+                            <a href="https://videoplattform.lubw.baden-wuerttemberg.de/Panopto/Pages/Viewer.aspx?id=d28e5e6d-3a6c-4b00-8889-b3d3009515c9" target="_blank" class="btn btn-secondary">Video ansehen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="features" class="feature-section">
+                <div class="container">
+                    <div class="section-header center">
+                        <h3>Drei Säulen der Bauwende</h3>
+                    </div>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="icon">🌱</div>
+                            <h4>Nachhaltigkeit</h4>
+                            <p>Ressourcenschonung und Minimierung des ökologischen Fußabdrucks.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon">⚙️</div>
+                            <h4>Effizienz</h4>
+                            <p>Gezielte Reduktion von Abfallströmen durch kreislaufgerechte Planung.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon">💎</div>
+                            <h4>Werterhalt</h4>
+                            <p>Langfristige Zukunftsfähigkeit und Werthaltigkeit Ihrer Immobilien.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="roles" class="role-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h3>Wählen Sie Ihre Perspektive</h3>
+                        <p>Klicken Sie auf Ihre Rolle, um direkt zu den relevanten Inhalten zu gelangen.</p>
+                    </div>
+                    <div class="role-grid">
+                        <div class="role-card" data-role="bauverantwortliche">
+                            <div class="role-icon">🏗️</div>
+                            <h4>Bauverantwortliche</h4>
+                            <p>Strategie, Budgetierung und Gesamtsteuerung.</p>
+                        </div>
+                        <div class="role-card" data-role="architektur">
+                            <div class="role-icon">📐</div>
+                            <h4>Architektur</h4>
+                            <p>Entwurf, Materialwahl und Design for Disassembly.</p>
+                        </div>
+                        <div class="role-card" data-role="tragwerksplanung">
+                            <div class="role-icon">🏗️</div>
+                            <h4>Tragwerksplanung</h4>
+                            <p>Struktur-Optimierung und Rückbaubarkeit.</p>
+                        </div>
+                        <div class="role-card" data-role="vergabestelle">
+                            <div class="role-icon">📝</div>
+                            <h4>Vergabestelle</h4>
+                            <p>Rechtssichere Integration in Ausschreibungen.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Placeholder for dynamic sections -->
+        <div id="dynamic-content"></div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h5>LUBW Demo-Navigator</h5>
+                    <p>Ein interaktives Tool zur Demonstration der Bauwende.</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Impressum</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="https://www.lubw.baden-wuerttemberg.de" target="_blank">LUBW Website</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LUBW Landesanstalt für Umwelt Baden-Württemberg. In Kooperation mit ThePod KI Beauftragter GmbH.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
